@@ -1,10 +1,121 @@
 ---
 title: "about-aglaus"
-titleja: "about aglaus"
+titleja: "About Aglaus"
 eyecatch: "hugo.png"
 date: 2015-01-06
 comments: true
 categories: ["hugo", "aglaus"]
 ---
+
+## About hugo theme [Aglaus]
+
+
+
+## Hugo用テーマ[Aglaus]について
+
+Golangで書かれた静的サイトジェネレータ、[Hugo](http://gohugo.io)用のテーマです。
+
+### 日本語用の記事タイトル
+
+Hugoは記事のパーマリンク設定に`:title`を含めた場合、Markdownに記述された`title`をURLに設定します。
+
+日本語を設定するとパーセントエンコードされた形でURLが生成されますが、`Aglaus`では`titleja`を設定することで、記事のタイトルを別途設定出来ます。
+
+``` markdown
+---
+title: "about-aglaus" // URLに設定される
+titleja: "Aglausについて" // 記事のタイトルとして表示される
+eyecatch: "hugo.png"
+date: 2015-01-06
+comments: true
+tags: ["hugo", "aglaus"]
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+```
+
+titlejaタグを設定しなかった場合は`title`が設定されます。
+
+### アイキャッチ画像
+
+[<img src="/hugo_theme_aglaus/images/desc_eyecatch.png" class="image" alt="eyecatch">](/hugo_theme_aglaus/images/desc_eyecatch.png)
+
+記事単位にアイキャッチ画像が設定出来ます。
+
+記事のMarkdownファイルに`eyecatch`を設定し、`static/images/`以下に画像を配備してください。
+
+``` markdown
+---
+title: "about-aglaus"
+eyecatch: "hugo.png"
+date: 2015-01-06
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+```
+
+不要な場合は記述を削除することでデフォルト画像が表示されます。
+
+### タギング
+
+`tags`を設定することで、記事にタグをつけることが出来ます。
+
+``` markdown
+---
+title: "about-aglaus"
+date: 2015-01-06
+tags: ["hugo", "aglaus"]
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+```
+
+タグは記事個別ページの下部に表示され、関連する投稿のインデクシングに利用されます。
+
+[<img src="/hugo_theme_aglaus/images/desc_tags.png" class="image" alt="tags">](/hugo_theme_aglaus/images/desc_tags.png)
+
+### 関連する投稿
+
+タグを基準に関連する投稿を表示します。
+
+[<img src="/hugo_theme_aglaus/images/desc_tags.png" class="image" alt="tags">](/hugo_theme_aglaus/images/desc_tags.png)
+
+`config.yaml`の`ShowRelatedPost`を`False`にすることで非表示にできます。
+
+その場合、タグも表示されなくなります。
+
+### プロフィール
+
+ページ下部にプロフィールを表示出来ます。
+
+[<img src="/hugo_theme_aglaus/images/desc_profile.png" class="image" alt="profile">](/hugo_theme_aglaus/images/desc_profile.png)
+
+表示する情報は[Gravatar](https://gravatar.com/)から取得しているため、`config.yaml`に`GravatarHash`を設定する必要があります。
+
+設定がない場合、プロフィールは表示されません。
+
+### ソーシャルリンク
+
+プロフィールに[Facebook](https://www.facebook.com/)、[Twitter](https://twitter.com/)、[GitHub](https://github.com/)のリンクを配置出来ます。
+
+[<img src="/hugo_theme_aglaus/images/desc_profile.png" class="image" alt="profile">](/hugo_theme_aglaus/images/desc_profile.png)
+
+`config.yaml`に`Facebook`、`twitter`、`Github`のIDを設定する必要があります。
+
+設定がない場合、リンクは表示されません。
+
+### シェアボタン
+
+ページ最下部にシェアボタンが表示されます。
+
+[<img src="/hugo_theme_aglaus/images/desc_share.png" class="image" alt="share">](/hugo_theme_aglaus/images/desc_share.png)
+
+[SHAREBUTTON](http://sharebutton.net/)のプラグインを利用しています。
 
 
