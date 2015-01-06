@@ -11,6 +11,8 @@ tags: ["hugo", "golang", "aglaus"]
 
 [Aglaus](https://github.com/dim0627/hugo_theme_aglaus) is theme for [Hugo](http://gohugo.io).
 
+Please refer to the `README.md` of [Aglaus] (https://github.com/dim0627/hugo_theme_aglaus) for introduction method.
+
 ### Comment
 
 You can use [Disqus](https://disqus.com/).

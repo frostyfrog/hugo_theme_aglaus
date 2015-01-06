@@ -11,6 +11,8 @@ tags: ["hugo", "golang", "aglaus"]
 
 [Aglaus](https://github.com/dim0627/hugo_theme_aglaus)はGolangで書かれた静的サイトジェネレータ、[Hugo](http://gohugo.io)用のテーマです。
 
+導入方法については[Aglaus](https://github.com/dim0627/hugo_theme_aglaus)の`README.md`を参照してください。
+
 ### コメント
 
 [Disqus](https://disqus.com/)が導入出来ます。
