@@ -9,7 +9,7 @@ tags: ["hugo", "golang", "aglaus"]
 
 ## Hugo用テーマ[Aglaus]について
 
-**Aglaus**はGolangで書かれた静的サイトジェネレータ、[Hugo](http://gohugo.io)用のテーマです。
+[Aglaus](https://github.com/dim0627/hugo_theme_aglaus)はGolangで書かれた静的サイトジェネレータ、[Hugo](http://gohugo.io)用のテーマです。
 
 ### コメント
 

@@ -9,7 +9,7 @@ tags: ["hugo", "golang", "aglaus"]
 
 ## About hugo theme [Aglaus]
 
-**Aglaus** is theme for [Hugo](http://gohugo.io).
+[Aglaus](https://github.com/dim0627/hugo_theme_aglaus) is theme for [Hugo](http://gohugo.io).
 
 ### Comment
 
