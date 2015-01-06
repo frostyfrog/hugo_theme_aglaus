@@ -22,6 +22,8 @@
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt;はGolangで書かれた静的サイトジェネレータ、&lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;用のテーマです。&lt;/p&gt;
 
+&lt;p&gt;導入方法については&lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt;の&lt;code&gt;README.md&lt;/code&gt;を参照してください。&lt;/p&gt;
+
 &lt;h3 id=&#34;コメント:0019966881bb613675405e5cc20328ee&#34;&gt;コメント&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;が導入出来ます。&lt;/p&gt;
@@ -165,6 +167,8 @@ tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
 &lt;h2 id=&#34;about-hugo-theme-aglaus:d353d6db6e7381ac46c882e900710e6a&#34;&gt;About hugo theme [Aglaus]&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt; is theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please refer to the &lt;code&gt;README.md&lt;/code&gt; of &lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt; for introduction method.&lt;/p&gt;
 
 &lt;h3 id=&#34;comment:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Comment&lt;/h3&gt;
 
