@@ -11,6 +11,150 @@
     
       
         <item>
+          <title>about-aglaus-ja</title>
+          <link>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus-ja/</link>
+          <pubDate>Tue, 06 Jan 2015 00:00:00 UTC</pubDate>
+          <author>Daisuke Tsuji</author>
+          <guid>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus-ja/</guid>
+          <description>
+
+&lt;h2 id=&#34;hugo用テーマ-aglaus-について:0019966881bb613675405e5cc20328ee&#34;&gt;Hugo用テーマ[Aglaus]について&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Aglaus&lt;/strong&gt;はGolangで書かれた静的サイトジェネレータ、&lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;用のテーマです。&lt;/p&gt;
+
+&lt;h3 id=&#34;コメント:0019966881bb613675405e5cc20328ee&#34;&gt;コメント&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;が導入出来ます。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;config.yaml&lt;/code&gt;の&lt;code&gt;Disqus&lt;/code&gt;を設定し、記事のMarkdownに&lt;code&gt;comments: true&lt;/code&gt;を設定してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34; class=&#34;image&#34; alt=&#34;disqus&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;設定されなかった場合、コメント欄は表示されません。&lt;/p&gt;
+
+&lt;p&gt;特定の記事のみコメントを拒否する場合は、&lt;code&gt;comments&lt;/code&gt;を未設定にするか、&lt;code&gt;false&lt;/code&gt;を設定してください。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;about-aglaus&amp;quot;
+date: 2015-01-06
+comments: false
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;日本語用の記事タイトル:0019966881bb613675405e5cc20328ee&#34;&gt;日本語用の記事タイトル&lt;/h3&gt;
+
+&lt;p&gt;Hugoは記事のパーマリンク設定に&lt;code&gt;:title&lt;/code&gt;を含めた場合、Markdownに記述された&lt;code&gt;title&lt;/code&gt;をURLに設定します。&lt;/p&gt;
+
+&lt;p&gt;日本語を設定するとパーセントエンコードされた形でURLが生成されますが、&lt;code&gt;Aglaus&lt;/code&gt;では&lt;code&gt;titleja&lt;/code&gt;を設定することで、記事のタイトルを別途設定出来ます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;about-aglaus&amp;quot; // URLに設定される
+titleja: &amp;quot;Aglausについて&amp;quot; // 記事のタイトルとして表示される
+date: 2015-01-06
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;titlejaタグを設定しなかった場合は&lt;code&gt;title&lt;/code&gt;が設定されます。&lt;/p&gt;
+
+&lt;h3 id=&#34;アイキャッチ画像:0019966881bb613675405e5cc20328ee&#34;&gt;アイキャッチ画像&lt;/h3&gt;
+
+&lt;p&gt;記事単位にアイキャッチ画像が設定出来ます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_eyecatch.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_eyecatch.png&#34; class=&#34;image&#34; alt=&#34;eyecatch&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;記事のMarkdownファイルに&lt;code&gt;eyecatch&lt;/code&gt;を設定し、&lt;code&gt;static/images/&lt;/code&gt;以下に画像を配備してください。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;about-aglaus&amp;quot;
+eyecatch: &amp;quot;hugo.png&amp;quot;
+date: 2015-01-06
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;不要な場合は記述を削除することでデフォルト画像が表示されます。&lt;/p&gt;
+
+&lt;h3 id=&#34;タギング:0019966881bb613675405e5cc20328ee&#34;&gt;タギング&lt;/h3&gt;
+
+&lt;p&gt;&lt;code&gt;tags&lt;/code&gt;を設定することで、記事にタグをつけることが出来ます。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;about-aglaus&amp;quot;
+date: 2015-01-06
+tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;タグは記事個別ページの下部に表示され、関連する投稿のインデクシングに利用されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34; class=&#34;image&#34; alt=&#34;tags&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;関連する投稿:0019966881bb613675405e5cc20328ee&#34;&gt;関連する投稿&lt;/h3&gt;
+
+&lt;p&gt;タグを基準に関連する投稿を表示します。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34; class=&#34;image&#34; alt=&#34;tags&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;config.yaml&lt;/code&gt;の&lt;code&gt;ShowRelatedPost&lt;/code&gt;を&lt;code&gt;False&lt;/code&gt;にすることで非表示にできます。&lt;/p&gt;
+
+&lt;p&gt;その場合、タグも表示されなくなります。&lt;/p&gt;
+
+&lt;h3 id=&#34;プロフィール:0019966881bb613675405e5cc20328ee&#34;&gt;プロフィール&lt;/h3&gt;
+
+&lt;p&gt;ページ下部にプロフィールを表示出来ます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;表示する情報は&lt;a href=&#34;https://gravatar.com/&#34;&gt;Gravatar&lt;/a&gt;から取得しているため、&lt;code&gt;config.yaml&lt;/code&gt;に&lt;code&gt;GravatarHash&lt;/code&gt;を設定する必要があります。&lt;/p&gt;
+
+&lt;p&gt;ハッシュの取得については&lt;a href=&#34;https://ja.gravatar.com/site/implement/hash/&#34;&gt;Creating the Hash&lt;/a&gt;を参照してください。&lt;/p&gt;
+
+&lt;p&gt;設定がない場合、プロフィールは表示されません。&lt;/p&gt;
+
+&lt;h3 id=&#34;ソーシャルリンク:0019966881bb613675405e5cc20328ee&#34;&gt;ソーシャルリンク&lt;/h3&gt;
+
+&lt;p&gt;プロフィールに&lt;a href=&#34;https://www.facebook.com/&#34;&gt;Facebook&lt;/a&gt;、&lt;a href=&#34;https://twitter.com/&#34;&gt;Twitter&lt;/a&gt;、&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;のリンクを配置出来ます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;config.yaml&lt;/code&gt;に&lt;code&gt;Facebook&lt;/code&gt;、&lt;code&gt;Twitter&lt;/code&gt;、&lt;code&gt;Github&lt;/code&gt;のIDを設定する必要があります。&lt;/p&gt;
+
+&lt;p&gt;設定がない場合、リンクは表示されません。&lt;/p&gt;
+
+&lt;h3 id=&#34;シェアボタン:0019966881bb613675405e5cc20328ee&#34;&gt;シェアボタン&lt;/h3&gt;
+
+&lt;p&gt;ページ最下部にシェアボタンが表示されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_share.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_share.png&#34; class=&#34;image&#34; alt=&#34;share&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://sharebutton.net/&#34;&gt;SHAREBUTTON&lt;/a&gt;のプラグインを利用しています。&lt;/p&gt;
+
+&lt;h2 id=&#34;お問い合わせ:0019966881bb613675405e5cc20328ee&#34;&gt;お問い合わせ&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/daisuke.tsuji.735&#34;&gt;https://www.facebook.com/daisuke.tsuji.735&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/dim0627&#34;&gt;https://twitter.com/dim0627&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
           <title>about-aglaus</title>
           <link>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus/</link>
           <pubDate>Tue, 06 Jan 2015 00:00:00 UTC</pubDate>
@@ -126,140 +270,6 @@ tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
 &lt;p&gt;Using the plugin &lt;a href=&#34;http://sharebutton.net/&#34;&gt;SHAREBUTTON&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;contact-me:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Contact Me&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/daisuke.tsuji.735&#34;&gt;https://www.facebook.com/daisuke.tsuji.735&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/dim0627&#34;&gt;https://twitter.com/dim0627&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;hugo用テーマ-aglaus-について:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Hugo用テーマ[Aglaus]について&lt;/h2&gt;
-
-&lt;p&gt;Golangで書かれた静的サイトジェネレータ、&lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;用のテーマです。&lt;/p&gt;
-
-&lt;h3 id=&#34;コメント:d353d6db6e7381ac46c882e900710e6a&#34;&gt;コメント&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;が導入出来ます。&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;config.yaml&lt;/code&gt;の&lt;code&gt;Disqus&lt;/code&gt;を設定し、記事のMarkdownに&lt;code&gt;comments: true&lt;/code&gt;を設定してください。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34; class=&#34;image&#34; alt=&#34;disqus&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;設定されなかった場合、コメント欄は表示されません。&lt;/p&gt;
-
-&lt;p&gt;特定の記事のみコメントを拒否する場合は、&lt;code&gt;comments&lt;/code&gt;を未設定にするか、&lt;code&gt;false&lt;/code&gt;を設定してください。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
-title: &amp;quot;about-aglaus&amp;quot;
-date: 2015-01-06
-comments: false
----
-
-## About hugo theme [Aglaus]
- :
- :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;日本語用の記事タイトル:d353d6db6e7381ac46c882e900710e6a&#34;&gt;日本語用の記事タイトル&lt;/h3&gt;
-
-&lt;p&gt;Hugoは記事のパーマリンク設定に&lt;code&gt;:title&lt;/code&gt;を含めた場合、Markdownに記述された&lt;code&gt;title&lt;/code&gt;をURLに設定します。&lt;/p&gt;
-
-&lt;p&gt;日本語を設定するとパーセントエンコードされた形でURLが生成されますが、&lt;code&gt;Aglaus&lt;/code&gt;では&lt;code&gt;titleja&lt;/code&gt;を設定することで、記事のタイトルを別途設定出来ます。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
-title: &amp;quot;about-aglaus&amp;quot; // URLに設定される
-titleja: &amp;quot;Aglausについて&amp;quot; // 記事のタイトルとして表示される
-date: 2015-01-06
----
-
-## About hugo theme [Aglaus]
- :
- :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;titlejaタグを設定しなかった場合は&lt;code&gt;title&lt;/code&gt;が設定されます。&lt;/p&gt;
-
-&lt;h3 id=&#34;アイキャッチ画像:d353d6db6e7381ac46c882e900710e6a&#34;&gt;アイキャッチ画像&lt;/h3&gt;
-
-&lt;p&gt;記事単位にアイキャッチ画像が設定出来ます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_eyecatch.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_eyecatch.png&#34; class=&#34;image&#34; alt=&#34;eyecatch&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;記事のMarkdownファイルに&lt;code&gt;eyecatch&lt;/code&gt;を設定し、&lt;code&gt;static/images/&lt;/code&gt;以下に画像を配備してください。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
-title: &amp;quot;about-aglaus&amp;quot;
-eyecatch: &amp;quot;hugo.png&amp;quot;
-date: 2015-01-06
----
-
-## About hugo theme [Aglaus]
- :
- :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;不要な場合は記述を削除することでデフォルト画像が表示されます。&lt;/p&gt;
-
-&lt;h3 id=&#34;タギング:d353d6db6e7381ac46c882e900710e6a&#34;&gt;タギング&lt;/h3&gt;
-
-&lt;p&gt;&lt;code&gt;tags&lt;/code&gt;を設定することで、記事にタグをつけることが出来ます。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
-title: &amp;quot;about-aglaus&amp;quot;
-date: 2015-01-06
-tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
----
-
-## About hugo theme [Aglaus]
- :
- :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;タグは記事個別ページの下部に表示され、関連する投稿のインデクシングに利用されます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34; class=&#34;image&#34; alt=&#34;tags&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;関連する投稿:d353d6db6e7381ac46c882e900710e6a&#34;&gt;関連する投稿&lt;/h3&gt;
-
-&lt;p&gt;タグを基準に関連する投稿を表示します。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34; class=&#34;image&#34; alt=&#34;tags&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;config.yaml&lt;/code&gt;の&lt;code&gt;ShowRelatedPost&lt;/code&gt;を&lt;code&gt;False&lt;/code&gt;にすることで非表示にできます。&lt;/p&gt;
-
-&lt;p&gt;その場合、タグも表示されなくなります。&lt;/p&gt;
-
-&lt;h3 id=&#34;プロフィール:d353d6db6e7381ac46c882e900710e6a&#34;&gt;プロフィール&lt;/h3&gt;
-
-&lt;p&gt;ページ下部にプロフィールを表示出来ます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;表示する情報は&lt;a href=&#34;https://gravatar.com/&#34;&gt;Gravatar&lt;/a&gt;から取得しているため、&lt;code&gt;config.yaml&lt;/code&gt;に&lt;code&gt;GravatarHash&lt;/code&gt;を設定する必要があります。&lt;/p&gt;
-
-&lt;p&gt;ハッシュの取得については&lt;a href=&#34;https://ja.gravatar.com/site/implement/hash/&#34;&gt;Creating the Hash&lt;/a&gt;を参照してください。&lt;/p&gt;
-
-&lt;p&gt;設定がない場合、プロフィールは表示されません。&lt;/p&gt;
-
-&lt;h3 id=&#34;ソーシャルリンク:d353d6db6e7381ac46c882e900710e6a&#34;&gt;ソーシャルリンク&lt;/h3&gt;
-
-&lt;p&gt;プロフィールに&lt;a href=&#34;https://www.facebook.com/&#34;&gt;Facebook&lt;/a&gt;、&lt;a href=&#34;https://twitter.com/&#34;&gt;Twitter&lt;/a&gt;、&lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;のリンクを配置出来ます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;code&gt;config.yaml&lt;/code&gt;に&lt;code&gt;Facebook&lt;/code&gt;、&lt;code&gt;Twitter&lt;/code&gt;、&lt;code&gt;Github&lt;/code&gt;のIDを設定する必要があります。&lt;/p&gt;
-
-&lt;p&gt;設定がない場合、リンクは表示されません。&lt;/p&gt;
-
-&lt;h3 id=&#34;シェアボタン:d353d6db6e7381ac46c882e900710e6a&#34;&gt;シェアボタン&lt;/h3&gt;
-
-&lt;p&gt;ページ最下部にシェアボタンが表示されます。&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_share.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_share.png&#34; class=&#34;image&#34; alt=&#34;share&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://sharebutton.net/&#34;&gt;SHAREBUTTON&lt;/a&gt;のプラグインを利用しています。&lt;/p&gt;
-
-&lt;h2 id=&#34;お問い合わせ:d353d6db6e7381ac46c882e900710e6a&#34;&gt;お問い合わせ&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.facebook.com/daisuke.tsuji.735&#34;&gt;https://www.facebook.com/daisuke.tsuji.735&lt;/a&gt;&lt;/p&gt;
 
