@@ -22,7 +22,7 @@
 
 &lt;p&gt;&lt;strong&gt;Aglaus&lt;/strong&gt; is theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;コメント:d353d6db6e7381ac46c882e900710e6a&#34;&gt;コメント&lt;/h3&gt;
+&lt;h3 id=&#34;comment:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Comment&lt;/h3&gt;
 
 &lt;p&gt;You can use &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;.&lt;/p&gt;
 
@@ -45,7 +45,7 @@ comments: false
  :
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;eyecatch-image:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Eyecatch image.&lt;/h3&gt;
+&lt;h3 id=&#34;eyecatch-image:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Eyecatch image&lt;/h3&gt;
 
 &lt;p&gt;Eye-catching image can be set to the article unit.&lt;/p&gt;
 
@@ -137,7 +137,7 @@ tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
 
 &lt;p&gt;Golangで書かれた静的サイトジェネレータ、&lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;用のテーマです。&lt;/p&gt;
 
-&lt;h3 id=&#34;コメント-1:d353d6db6e7381ac46c882e900710e6a&#34;&gt;コメント&lt;/h3&gt;
+&lt;h3 id=&#34;コメント:d353d6db6e7381ac46c882e900710e6a&#34;&gt;コメント&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;が導入出来ます。&lt;/p&gt;
 

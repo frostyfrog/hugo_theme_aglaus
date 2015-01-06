@@ -11,7 +11,7 @@ tags: ["hugo", "golang", "aglaus"]
 
 **Aglaus** is theme for [Hugo](http://gohugo.io).
 
-### コメント
+### Comment
 
 You can use [Disqus](https://disqus.com/).
 
@@ -35,7 +35,7 @@ comments: false
  :
 ```
 
-### Eyecatch image.
+### Eyecatch image
 
 Eye-catching image can be set to the article unit.
 
