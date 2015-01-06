@@ -65,21 +65,19 @@
 
 <h2 id="about-hugo-theme-aglaus:d353d6db6e7381ac46c882e900710e6a">About hugo theme [Aglaus]</h2>
 
-<h2 id="hugo用テーマ-aglaus-について:d353d6db6e7381ac46c882e900710e6a">Hugo用テーマ[Aglaus]について</h2>
-
-<p>Golangで書かれた静的サイトジェネレータ、<a href="http://gohugo.io">Hugo</a>用のテーマです。</p>
+<p><strong>Aglaus</strong> is theme for <a href="http://gohugo.io">Hugo</a>.</p>
 
 <h3 id="コメント:d353d6db6e7381ac46c882e900710e6a">コメント</h3>
 
-<p>Disqusが導入出来ます。</p>
+<p>You can use <a href="https://disqus.com/">Disqus</a>.</p>
 
-<p><code>config.yaml</code>の<code>Disqus</code>を設定してください。</p>
+<p>Set <code>Disqus</code> to <code>config.yaml</code>, and set <code>comments: true</code> to Markdown.</p>
 
 <p><a href="/hugo_theme_aglaus/images/desc_disqus.png"><img src="/hugo_theme_aglaus/images/desc_disqus.png" class="image" alt="disqus"></a></p>
 
-<p>設定されなかった場合、コメント欄は表示されません。</p>
+<p>If not set,</p>
 
-<p>また、特定の記事のみコメントを拒否する場合は、記事のMarkdownファイルに<code>comments</code>を設定してください。</p>
+<p>特定の記事のみコメントを拒否する場合は、<code>comments</code>を未設定にするか、<code>false</code>を設定してください。</p>
 
 <pre><code class="language-markdown">---
 title: &quot;about-aglaus&quot;
@@ -184,6 +182,134 @@ tags: [&quot;hugo&quot;, &quot;aglaus&quot;]
 <p>設定がない場合、リンクは表示されません。</p>
 
 <h3 id="シェアボタン:d353d6db6e7381ac46c882e900710e6a">シェアボタン</h3>
+
+<p>ページ最下部にシェアボタンが表示されます。</p>
+
+<p><a href="/hugo_theme_aglaus/images/desc_share.png"><img src="/hugo_theme_aglaus/images/desc_share.png" class="image" alt="share"></a></p>
+
+<p><a href="http://sharebutton.net/">SHAREBUTTON</a>のプラグインを利用しています。</p>
+
+<hr />
+
+<h2 id="hugo用テーマ-aglaus-について:d353d6db6e7381ac46c882e900710e6a">Hugo用テーマ[Aglaus]について</h2>
+
+<p>Golangで書かれた静的サイトジェネレータ、<a href="http://gohugo.io">Hugo</a>用のテーマです。</p>
+
+<h3 id="コメント-1:d353d6db6e7381ac46c882e900710e6a">コメント</h3>
+
+<p><a href="https://disqus.com/">Disqus</a>が導入出来ます。</p>
+
+<p><code>config.yaml</code>の<code>Disqus</code>を設定し、記事のMarkdownに<code>comments: true</code>を設定してください。</p>
+
+<p><a href="/hugo_theme_aglaus/images/desc_disqus.png"><img src="/hugo_theme_aglaus/images/desc_disqus.png" class="image" alt="disqus"></a></p>
+
+<p>設定されなかった場合、コメント欄は表示されません。</p>
+
+<p>特定の記事のみコメントを拒否する場合は、<code>comments</code>を未設定にするか、<code>false</code>を設定してください。</p>
+
+<pre><code class="language-markdown">---
+title: &quot;about-aglaus&quot;
+date: 2015-01-06
+comments: false
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+</code></pre>
+
+<h3 id="日本語用の記事タイトル-1:d353d6db6e7381ac46c882e900710e6a">日本語用の記事タイトル</h3>
+
+<p>Hugoは記事のパーマリンク設定に<code>:title</code>を含めた場合、Markdownに記述された<code>title</code>をURLに設定します。</p>
+
+<p>日本語を設定するとパーセントエンコードされた形でURLが生成されますが、<code>Aglaus</code>では<code>titleja</code>を設定することで、記事のタイトルを別途設定出来ます。</p>
+
+<pre><code class="language-markdown">---
+title: &quot;about-aglaus&quot; // URLに設定される
+titleja: &quot;Aglausについて&quot; // 記事のタイトルとして表示される
+date: 2015-01-06
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+</code></pre>
+
+<p>titlejaタグを設定しなかった場合は<code>title</code>が設定されます。</p>
+
+<h3 id="アイキャッチ画像-1:d353d6db6e7381ac46c882e900710e6a">アイキャッチ画像</h3>
+
+<p><a href="/hugo_theme_aglaus/images/desc_eyecatch.png"><img src="/hugo_theme_aglaus/images/desc_eyecatch.png" class="image" alt="eyecatch"></a></p>
+
+<p>記事単位にアイキャッチ画像が設定出来ます。</p>
+
+<p>記事のMarkdownファイルに<code>eyecatch</code>を設定し、<code>static/images/</code>以下に画像を配備してください。</p>
+
+<pre><code class="language-markdown">---
+title: &quot;about-aglaus&quot;
+eyecatch: &quot;hugo.png&quot;
+date: 2015-01-06
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+</code></pre>
+
+<p>不要な場合は記述を削除することでデフォルト画像が表示されます。</p>
+
+<h3 id="タギング-1:d353d6db6e7381ac46c882e900710e6a">タギング</h3>
+
+<p><code>tags</code>を設定することで、記事にタグをつけることが出来ます。</p>
+
+<pre><code class="language-markdown">---
+title: &quot;about-aglaus&quot;
+date: 2015-01-06
+tags: [&quot;hugo&quot;, &quot;aglaus&quot;]
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+</code></pre>
+
+<p>タグは記事個別ページの下部に表示され、関連する投稿のインデクシングに利用されます。</p>
+
+<p><a href="/hugo_theme_aglaus/images/desc_tags.png"><img src="/hugo_theme_aglaus/images/desc_tags.png" class="image" alt="tags"></a></p>
+
+<h3 id="関連する投稿-1:d353d6db6e7381ac46c882e900710e6a">関連する投稿</h3>
+
+<p>タグを基準に関連する投稿を表示します。</p>
+
+<p><a href="/hugo_theme_aglaus/images/desc_tags.png"><img src="/hugo_theme_aglaus/images/desc_tags.png" class="image" alt="tags"></a></p>
+
+<p><code>config.yaml</code>の<code>ShowRelatedPost</code>を<code>False</code>にすることで非表示にできます。</p>
+
+<p>その場合、タグも表示されなくなります。</p>
+
+<h3 id="プロフィール-1:d353d6db6e7381ac46c882e900710e6a">プロフィール</h3>
+
+<p>ページ下部にプロフィールを表示出来ます。</p>
+
+<p><a href="/hugo_theme_aglaus/images/desc_profile.png"><img src="/hugo_theme_aglaus/images/desc_profile.png" class="image" alt="profile"></a></p>
+
+<p>表示する情報は<a href="https://gravatar.com/">Gravatar</a>から取得しているため、<code>config.yaml</code>に<code>GravatarHash</code>を設定する必要があります。</p>
+
+<p>ハッシュの取得については<a href="https://ja.gravatar.com/site/implement/hash/">Creating the Hash</a>を参照してください。</p>
+
+<p>設定がない場合、プロフィールは表示されません。</p>
+
+<h3 id="ソーシャルリンク-1:d353d6db6e7381ac46c882e900710e6a">ソーシャルリンク</h3>
+
+<p>プロフィールに<a href="https://www.facebook.com/">Facebook</a>、<a href="https://twitter.com/">Twitter</a>、<a href="https://github.com/">GitHub</a>のリンクを配置出来ます。</p>
+
+<p><a href="/hugo_theme_aglaus/images/desc_profile.png"><img src="/hugo_theme_aglaus/images/desc_profile.png" class="image" alt="profile"></a></p>
+
+<p><code>config.yaml</code>に<code>Facebook</code>、<code>twitter</code>、<code>Github</code>のIDを設定する必要があります。</p>
+
+<p>設定がない場合、リンクは表示されません。</p>
+
+<h3 id="シェアボタン-1:d353d6db6e7381ac46c882e900710e6a">シェアボタン</h3>
 
 <p>ページ最下部にシェアボタンが表示されます。</p>
 
