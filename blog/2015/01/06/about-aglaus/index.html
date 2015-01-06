@@ -69,6 +69,29 @@
 
 <p>Golangで書かれた静的サイトジェネレータ、<a href="http://gohugo.io">Hugo</a>用のテーマです。</p>
 
+<h3 id="コメント:d353d6db6e7381ac46c882e900710e6a">コメント</h3>
+
+<p>Disqusが導入出来ます。</p>
+
+<p><code>config.yaml</code>の<code>Disqus</code>を設定してください。</p>
+
+<p><a href="/hugo_theme_aglaus/images/desc_disqus.png"><img src="/hugo_theme_aglaus/images/desc_disqus.png" class="image" alt="disqus"></a></p>
+
+<p>設定されなかった場合、コメント欄は表示されません。</p>
+
+<p>また、特定の記事のみコメントを拒否する場合は、記事のMarkdownファイルに<code>comments</code>を設定してください。</p>
+
+<pre><code class="language-markdown">---
+title: &quot;about-aglaus&quot;
+date: 2015-01-06
+comments: false
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+</code></pre>
+
 <h3 id="日本語用の記事タイトル:d353d6db6e7381ac46c882e900710e6a">日本語用の記事タイトル</h3>
 
 <p>Hugoは記事のパーマリンク設定に<code>:title</code>を含めた場合、Markdownに記述された<code>title</code>をURLに設定します。</p>
@@ -78,10 +101,7 @@
 <pre><code class="language-markdown">---
 title: &quot;about-aglaus&quot; // URLに設定される
 titleja: &quot;Aglausについて&quot; // 記事のタイトルとして表示される
-eyecatch: &quot;hugo.png&quot;
 date: 2015-01-06
-comments: true
-tags: [&quot;hugo&quot;, &quot;aglaus&quot;]
 ---
 
 ## About hugo theme [Aglaus]
@@ -149,6 +169,8 @@ tags: [&quot;hugo&quot;, &quot;aglaus&quot;]
 
 <p>表示する情報は<a href="https://gravatar.com/">Gravatar</a>から取得しているため、<code>config.yaml</code>に<code>GravatarHash</code>を設定する必要があります。</p>
 
+<p>ハッシュの取得については<a href="https://ja.gravatar.com/site/implement/hash/">Creating the Hash</a>を参照してください。</p>
+
 <p>設定がない場合、プロフィールは表示されません。</p>
 
 <h3 id="ソーシャルリンク:d353d6db6e7381ac46c882e900710e6a">ソーシャルリンク</h3>
@@ -179,6 +201,27 @@ tags: [&quot;hugo&quot;, &quot;aglaus&quot;]
         
         <ul class="post-tags">
             
+            <li>
+                <a href="http://yet.unresolved.xyz/hugo_theme_aglaus/tags/hugo">
+                    <i class="fa fa-tags"></i>
+                    hugo
+                </a>
+            </li>
+            
+            <li>
+                <a href="http://yet.unresolved.xyz/hugo_theme_aglaus/tags/golang">
+                    <i class="fa fa-tags"></i>
+                    golang
+                </a>
+            </li>
+            
+            <li>
+                <a href="http://yet.unresolved.xyz/hugo_theme_aglaus/tags/aglaus">
+                    <i class="fa fa-tags"></i>
+                    aglaus
+                </a>
+            </li>
+            
         </ul>
 
         <ul class="related-post">
@@ -196,9 +239,13 @@ tags: [&quot;hugo&quot;, &quot;aglaus&quot;]
             
             
             
+            <li><a href="http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2014/04/02/hugo-template-primer/">(Hu)go Template Primer</a></li>
             
             
             
+            
+            
+            <li><a href="http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2014/04/02/getting-started-with-hugo/">Getting Started with Hugo</a></li>
             
             
         </ul>
@@ -221,6 +268,8 @@ tags: [&quot;hugo&quot;, &quot;aglaus&quot;]
             </div>
         </div>
 
+    
+    
         
         <div id="disqus_thread"></div>
         <script type="text/javascript">
@@ -235,6 +284,8 @@ var disqus_shortname = 'unresolved';
 })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
     </footer>
 
 </article>

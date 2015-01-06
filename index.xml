@@ -24,6 +24,29 @@
 
 &lt;p&gt;Golangで書かれた静的サイトジェネレータ、&lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;用のテーマです。&lt;/p&gt;
 
+&lt;h3 id=&#34;コメント:d353d6db6e7381ac46c882e900710e6a&#34;&gt;コメント&lt;/h3&gt;
+
+&lt;p&gt;Disqusが導入出来ます。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;config.yaml&lt;/code&gt;の&lt;code&gt;Disqus&lt;/code&gt;を設定してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34; class=&#34;image&#34; alt=&#34;disqus&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;設定されなかった場合、コメント欄は表示されません。&lt;/p&gt;
+
+&lt;p&gt;また、特定の記事のみコメントを拒否する場合は、記事のMarkdownファイルに&lt;code&gt;comments&lt;/code&gt;を設定してください。&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;about-aglaus&amp;quot;
+date: 2015-01-06
+comments: false
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h3 id=&#34;日本語用の記事タイトル:d353d6db6e7381ac46c882e900710e6a&#34;&gt;日本語用の記事タイトル&lt;/h3&gt;
 
 &lt;p&gt;Hugoは記事のパーマリンク設定に&lt;code&gt;:title&lt;/code&gt;を含めた場合、Markdownに記述された&lt;code&gt;title&lt;/code&gt;をURLに設定します。&lt;/p&gt;
@@ -33,10 +56,7 @@
 &lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
 title: &amp;quot;about-aglaus&amp;quot; // URLに設定される
 titleja: &amp;quot;Aglausについて&amp;quot; // 記事のタイトルとして表示される
-eyecatch: &amp;quot;hugo.png&amp;quot;
 date: 2015-01-06
-comments: true
-tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
 ---
 
 ## About hugo theme [Aglaus]
@@ -103,6 +123,8 @@ tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
 &lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;表示する情報は&lt;a href=&#34;https://gravatar.com/&#34;&gt;Gravatar&lt;/a&gt;から取得しているため、&lt;code&gt;config.yaml&lt;/code&gt;に&lt;code&gt;GravatarHash&lt;/code&gt;を設定する必要があります。&lt;/p&gt;
+
+&lt;p&gt;ハッシュの取得については&lt;a href=&#34;https://ja.gravatar.com/site/implement/hash/&#34;&gt;Creating the Hash&lt;/a&gt;を参照してください。&lt;/p&gt;
 
 &lt;p&gt;設定がない場合、プロフィールは表示されません。&lt;/p&gt;
 
