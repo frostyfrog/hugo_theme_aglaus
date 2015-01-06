@@ -1,10 +1,10 @@
 ---
-title: "about-hugo"
-titleja: "about hugo"
+title: "about-aglaus"
+titleja: "about aglaus"
 eyecatch: "hugo.png"
 date: 2015-01-06
 comments: true
-categories: ["hugo"]
+categories: ["hugo", "aglaus"]
 ---
 
 
