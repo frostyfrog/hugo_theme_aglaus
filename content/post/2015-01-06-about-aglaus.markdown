@@ -4,7 +4,7 @@ titleja: "About Aglaus"
 eyecatch: "hugo.png"
 date: 2015-01-06
 comments: true
-categories: ["hugo", "aglaus"]
+tags: ["hugo", "golang", "aglaus"]
 ---
 
 ## About hugo theme [Aglaus]
@@ -14,6 +14,30 @@ categories: ["hugo", "aglaus"]
 ## Hugo用テーマ[Aglaus]について
 
 Golangで書かれた静的サイトジェネレータ、[Hugo](http://gohugo.io)用のテーマです。
+
+### コメント
+
+Disqusが導入出来ます。
+
+`config.yaml`の`Disqus`を設定してください。
+
+[<img src="/hugo_theme_aglaus/images/desc_disqus.png" class="image" alt="disqus">](/hugo_theme_aglaus/images/desc_disqus.png)
+
+設定されなかった場合、コメント欄は表示されません。
+
+また、特定の記事のみコメントを拒否する場合は、記事のMarkdownファイルに`comments`を設定してください。
+
+``` markdown
+---
+title: "about-aglaus"
+date: 2015-01-06
+comments: false
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+```
 
 ### 日本語用の記事タイトル
 
@@ -25,10 +49,7 @@ Hugoは記事のパーマリンク設定に`:title`を含めた場合、Markdown
 ---
 title: "about-aglaus" // URLに設定される
 titleja: "Aglausについて" // 記事のタイトルとして表示される
-eyecatch: "hugo.png"
 date: 2015-01-06
-comments: true
-tags: ["hugo", "aglaus"]
 ---
 
 ## About hugo theme [Aglaus]
@@ -97,6 +118,8 @@ tags: ["hugo", "aglaus"]
 [<img src="/hugo_theme_aglaus/images/desc_profile.png" class="image" alt="profile">](/hugo_theme_aglaus/images/desc_profile.png)
 
 表示する情報は[Gravatar](https://gravatar.com/)から取得しているため、`config.yaml`に`GravatarHash`を設定する必要があります。
+
+ハッシュの取得については[Creating the Hash](https://ja.gravatar.com/site/implement/hash/)を参照してください。
 
 設定がない場合、プロフィールは表示されません。
 

@@ -14,6 +14,7 @@ categories = [
     "golang",
 ]
 menu = "main"
+comments = false
 +++
 
 Hugo uses the excellent [go][] [html/template][gohtmltemplate] library for

@@ -12,6 +12,7 @@ Params:
   Twitter: "dim0627"
   Github: "dim0627"
   ShowRelatedPost: True
+  Disqus: "unresolved"
 
 Indexes:
   tag: "tags"
