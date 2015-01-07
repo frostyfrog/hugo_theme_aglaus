@@ -11,133 +11,6 @@
     
       
         <item>
-          <title>about-aglaus</title>
-          <link>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus/</link>
-          <pubDate>Tue, 06 Jan 2015 00:00:00 UTC</pubDate>
-          <author>Daisuke Tsuji</author>
-          <guid>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus/</guid>
-          <description>
-
-&lt;h2 id=&#34;about-hugo-theme-aglaus:d353d6db6e7381ac46c882e900710e6a&#34;&gt;About hugo theme [Aglaus]&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt; is theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Please refer to the &lt;code&gt;README.md&lt;/code&gt; of &lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt; for introduction method.&lt;/p&gt;
-
-&lt;h3 id=&#34;comment:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Comment&lt;/h3&gt;
-
-&lt;p&gt;You can use &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Set &lt;code&gt;Disqus&lt;/code&gt; to &lt;code&gt;config.yaml&lt;/code&gt;, and set &lt;code&gt;comments: true&lt;/code&gt; to Markdown.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34; class=&#34;image&#34; alt=&#34;disqus&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you did not set, the comments section is not displayed.&lt;/p&gt;
-
-&lt;p&gt;If you want to deny a comment only particular article, you can either unset the &lt;code&gt;comments&lt;/code&gt;, please set the &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
-title: &amp;quot;about-aglaus&amp;quot;
-date: 2015-01-06
-comments: false
----
-
-## About hugo theme [Aglaus]
- :
- :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;eyecatch-image:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Eyecatch image&lt;/h3&gt;
-
-&lt;p&gt;Eye-catching image can be set to the article unit.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_eyecatch.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_eyecatch.png&#34; class=&#34;image&#34; alt=&#34;eyecatch&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Set the &lt;code&gt;eyecatch&lt;/code&gt; to Markdown file of articles, please deploy the image to &lt;code&gt;static/images/&lt;/code&gt; below.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
-title: &amp;quot;about-aglaus&amp;quot;
-eyecatch: &amp;quot;hugo.png&amp;quot;
-date: 2015-01-06
----
-
-## About hugo theme [Aglaus]
- :
- :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you did not set, default image is displayed.&lt;/p&gt;
-
-&lt;h3 id=&#34;tag:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Tag&lt;/h3&gt;
-
-&lt;p&gt;By setting the &lt;code&gt;tags&lt;/code&gt;, you can tag the article.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
-title: &amp;quot;about-aglaus&amp;quot;
-date: 2015-01-06
-tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
----
-
-## About hugo theme [Aglaus]
- :
- :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Tag is displayed at the bottom of the article individual pages, will be used in the indexing of related posts.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34; class=&#34;image&#34; alt=&#34;tags&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;related-post:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Related Post&lt;/h3&gt;
-
-&lt;p&gt;Display posts associated with the reference tags.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34; class=&#34;image&#34; alt=&#34;tags&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You can hide it by the &lt;code&gt;ShowRelatedPost&lt;/code&gt; of &lt;code&gt;config.yaml&lt;/code&gt; to &lt;code&gt;False&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;In that case, also will not be displayed tag.&lt;/p&gt;
-
-&lt;h3 id=&#34;profile:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Profile&lt;/h3&gt;
-
-&lt;p&gt;Profile is displayed at the bottom of the page.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Information of profile getting from &lt;a href=&#34;https://gravatar.com/&#34;&gt;Gravatar&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Please set the &lt;code&gt;GravatarHash&lt;/code&gt; to &lt;code&gt;config.yaml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Please refer to the &lt;a href=&#34;https://ja.gravatar.com/site/implement/hash/&#34;&gt;Creating the Hash&lt;/a&gt; for hash of the acquisition.&lt;/p&gt;
-
-&lt;p&gt;If you did not set, profie is not displayed.&lt;/p&gt;
-
-&lt;h3 id=&#34;social-links:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Social Links&lt;/h3&gt;
-
-&lt;p&gt;You can place a link on &lt;a href=&#34;https://www.facebook.com/&#34;&gt;Facebook&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/&#34;&gt;Twitter&lt;/a&gt; and &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You need to set the ID of the &amp;lsquo;Facebook&amp;rsquo; and &amp;lsquo;Twitter&amp;rsquo; and &amp;lsquo;Github&amp;rsquo; to &amp;lsquo;config.yaml&amp;rsquo;.&lt;/p&gt;
-
-&lt;h3 id=&#34;share-buttons:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Share Buttons&lt;/h3&gt;
-
-&lt;p&gt;Share buttons is displayed at the bottom of the page.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_share.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_share.png&#34; class=&#34;image&#34; alt=&#34;share&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Using the plugin &lt;a href=&#34;http://sharebutton.net/&#34;&gt;SHAREBUTTON&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;contact-me:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Contact Me&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/daisuke.tsuji.735&#34;&gt;https://www.facebook.com/daisuke.tsuji.735&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/dim0627&#34;&gt;https://twitter.com/dim0627&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
           <title>about-aglaus-ja</title>
           <link>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus-ja/</link>
           <pubDate>Tue, 06 Jan 2015 00:00:00 UTC</pubDate>
@@ -274,6 +147,133 @@ tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
 &lt;p&gt;&lt;a href=&#34;http://sharebutton.net/&#34;&gt;SHAREBUTTON&lt;/a&gt;のプラグインを利用しています。&lt;/p&gt;
 
 &lt;h2 id=&#34;お問い合わせ:0019966881bb613675405e5cc20328ee&#34;&gt;お問い合わせ&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/daisuke.tsuji.735&#34;&gt;https://www.facebook.com/daisuke.tsuji.735&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/dim0627&#34;&gt;https://twitter.com/dim0627&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>about-aglaus</title>
+          <link>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus/</link>
+          <pubDate>Tue, 06 Jan 2015 00:00:00 UTC</pubDate>
+          <author>Daisuke Tsuji</author>
+          <guid>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus/</guid>
+          <description>
+
+&lt;h2 id=&#34;about-hugo-theme-aglaus:d353d6db6e7381ac46c882e900710e6a&#34;&gt;About hugo theme [Aglaus]&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt; is theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please refer to the &lt;code&gt;README.md&lt;/code&gt; of &lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt; for introduction method.&lt;/p&gt;
+
+&lt;h3 id=&#34;comment:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Comment&lt;/h3&gt;
+
+&lt;p&gt;You can use &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Set &lt;code&gt;Disqus&lt;/code&gt; to &lt;code&gt;config.yaml&lt;/code&gt;, and set &lt;code&gt;comments: true&lt;/code&gt; to Markdown.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34; class=&#34;image&#34; alt=&#34;disqus&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;If you did not set, the comments section is not displayed.&lt;/p&gt;
+
+&lt;p&gt;If you want to deny a comment only particular article, you can either unset the &lt;code&gt;comments&lt;/code&gt;, please set the &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;about-aglaus&amp;quot;
+date: 2015-01-06
+comments: false
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;eyecatch-image:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Eyecatch image&lt;/h3&gt;
+
+&lt;p&gt;Eye-catching image can be set to the article unit.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_eyecatch.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_eyecatch.png&#34; class=&#34;image&#34; alt=&#34;eyecatch&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Set the &lt;code&gt;eyecatch&lt;/code&gt; to Markdown file of articles, please deploy the image to &lt;code&gt;static/images/&lt;/code&gt; below.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;about-aglaus&amp;quot;
+eyecatch: &amp;quot;hugo.png&amp;quot;
+date: 2015-01-06
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you did not set, default image is displayed.&lt;/p&gt;
+
+&lt;h3 id=&#34;tag:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Tag&lt;/h3&gt;
+
+&lt;p&gt;By setting the &lt;code&gt;tags&lt;/code&gt;, you can tag the article.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;about-aglaus&amp;quot;
+date: 2015-01-06
+tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Tag is displayed at the bottom of the article individual pages, will be used in the indexing of related posts.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34; class=&#34;image&#34; alt=&#34;tags&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;related-post:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Related Post&lt;/h3&gt;
+
+&lt;p&gt;Display posts associated with the reference tags.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34; class=&#34;image&#34; alt=&#34;tags&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can hide it by the &lt;code&gt;ShowRelatedPost&lt;/code&gt; of &lt;code&gt;config.yaml&lt;/code&gt; to &lt;code&gt;False&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;In that case, also will not be displayed tag.&lt;/p&gt;
+
+&lt;h3 id=&#34;profile:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Profile&lt;/h3&gt;
+
+&lt;p&gt;Profile is displayed at the bottom of the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Information of profile getting from &lt;a href=&#34;https://gravatar.com/&#34;&gt;Gravatar&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please set the &lt;code&gt;GravatarHash&lt;/code&gt; to &lt;code&gt;config.yaml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please refer to the &lt;a href=&#34;https://ja.gravatar.com/site/implement/hash/&#34;&gt;Creating the Hash&lt;/a&gt; for hash of the acquisition.&lt;/p&gt;
+
+&lt;p&gt;If you did not set, profie is not displayed.&lt;/p&gt;
+
+&lt;h3 id=&#34;social-links:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Social Links&lt;/h3&gt;
+
+&lt;p&gt;You can place a link on &lt;a href=&#34;https://www.facebook.com/&#34;&gt;Facebook&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/&#34;&gt;Twitter&lt;/a&gt; and &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You need to set the ID of the &amp;lsquo;Facebook&amp;rsquo; and &amp;lsquo;Twitter&amp;rsquo; and &amp;lsquo;Github&amp;rsquo; to &amp;lsquo;config.yaml&amp;rsquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;share-buttons:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Share Buttons&lt;/h3&gt;
+
+&lt;p&gt;Share buttons is displayed at the bottom of the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_share.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_share.png&#34; class=&#34;image&#34; alt=&#34;share&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Using the plugin &lt;a href=&#34;http://sharebutton.net/&#34;&gt;SHAREBUTTON&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;contact-me:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Contact Me&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://www.facebook.com/daisuke.tsuji.735&#34;&gt;https://www.facebook.com/daisuke.tsuji.735&lt;/a&gt;&lt;/p&gt;
 
