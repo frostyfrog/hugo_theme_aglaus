@@ -37,26 +37,6 @@ comments: false
  :
 ```
 
-### 日本語用の記事タイトル
-
-Hugoは記事のパーマリンク設定に`:title`を含めた場合、Markdownに記述された`title`をURLに設定します。
-
-日本語を設定するとパーセントエンコードされた形でURLが生成されますが、`Aglaus`では`titleja`を設定することで、記事のタイトルを別途設定出来ます。
-
-``` markdown
----
-title: "about-aglaus" // URLに設定される
-titleja: "Aglausについて" // 記事のタイトルとして表示される
-date: 2015-01-06
----
-
-## About hugo theme [Aglaus]
- :
- :
-```
-
-titlejaタグを設定しなかった場合は`title`が設定されます。
-
 ### アイキャッチ画像
 
 記事単位にアイキャッチ画像が設定出来ます。

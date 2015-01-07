@@ -47,25 +47,6 @@ comments: false
  :
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h3 id=&#34;日本語用の記事タイトル:0019966881bb613675405e5cc20328ee&#34;&gt;日本語用の記事タイトル&lt;/h3&gt;
-
-&lt;p&gt;Hugoは記事のパーマリンク設定に&lt;code&gt;:title&lt;/code&gt;を含めた場合、Markdownに記述された&lt;code&gt;title&lt;/code&gt;をURLに設定します。&lt;/p&gt;
-
-&lt;p&gt;日本語を設定するとパーセントエンコードされた形でURLが生成されますが、&lt;code&gt;Aglaus&lt;/code&gt;では&lt;code&gt;titleja&lt;/code&gt;を設定することで、記事のタイトルを別途設定出来ます。&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
-title: &amp;quot;about-aglaus&amp;quot; // URLに設定される
-titleja: &amp;quot;Aglausについて&amp;quot; // 記事のタイトルとして表示される
-date: 2015-01-06
----
-
-## About hugo theme [Aglaus]
- :
- :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;titlejaタグを設定しなかった場合は&lt;code&gt;title&lt;/code&gt;が設定されます。&lt;/p&gt;
-
 &lt;h3 id=&#34;アイキャッチ画像:0019966881bb613675405e5cc20328ee&#34;&gt;アイキャッチ画像&lt;/h3&gt;
 
 &lt;p&gt;記事単位にアイキャッチ画像が設定出来ます。&lt;/p&gt;
