@@ -1,6 +1,5 @@
 ---
 title: "about-aglaus"
-titleja: "About Aglaus"
 eyecatch: "hugo.png"
 date: 2015-01-06
 comments: true

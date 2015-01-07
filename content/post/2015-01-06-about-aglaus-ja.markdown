@@ -1,6 +1,6 @@
 ---
-title: "about-aglaus-ja"
-titleja: "Aglausについて"
+slug: "about-aglaus-ja"
+title: "Aglausについて"
 eyecatch: "hugo.png"
 date: 2015-01-06
 comments: true
