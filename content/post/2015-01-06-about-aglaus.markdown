@@ -6,6 +6,9 @@ comments: true
 tags: ["hugo", "golang", "aglaus"]
 ---
 
+    Sorry, I do not have a good at English.
+    It is naive English, but please acknowledge.
+
 ## About hugo theme [Aglaus]
 
 [Aglaus](https://github.com/dim0627/hugo_theme_aglaus) is theme for [Hugo](http://gohugo.io).
