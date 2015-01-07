@@ -11,133 +11,6 @@
     
       
         <item>
-          <title>about-aglaus</title>
-          <link>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus/</link>
-          <pubDate>Tue, 06 Jan 2015 00:00:00 UTC</pubDate>
-          <author>Daisuke Tsuji</author>
-          <guid>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus/</guid>
-          <description>
-
-&lt;h2 id=&#34;about-hugo-theme-aglaus:d353d6db6e7381ac46c882e900710e6a&#34;&gt;About hugo theme [Aglaus]&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt; is theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Please refer to the &lt;code&gt;README.md&lt;/code&gt; of &lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt; for introduction method.&lt;/p&gt;
-
-&lt;h3 id=&#34;comment:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Comment&lt;/h3&gt;
-
-&lt;p&gt;You can use &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Set &lt;code&gt;Disqus&lt;/code&gt; to &lt;code&gt;config.yaml&lt;/code&gt;, and set &lt;code&gt;comments: true&lt;/code&gt; to Markdown.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34; class=&#34;image&#34; alt=&#34;disqus&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;If you did not set, the comments section is not displayed.&lt;/p&gt;
-
-&lt;p&gt;If you want to deny a comment only particular article, you can either unset the &lt;code&gt;comments&lt;/code&gt;, please set the &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
-title: &amp;quot;about-aglaus&amp;quot;
-date: 2015-01-06
-comments: false
----
-
-## About hugo theme [Aglaus]
- :
- :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h3 id=&#34;eyecatch-image:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Eyecatch image&lt;/h3&gt;
-
-&lt;p&gt;Eye-catching image can be set to the article unit.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_eyecatch.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_eyecatch.png&#34; class=&#34;image&#34; alt=&#34;eyecatch&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Set the &lt;code&gt;eyecatch&lt;/code&gt; to Markdown file of articles, please deploy the image to &lt;code&gt;static/images/&lt;/code&gt; below.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
-title: &amp;quot;about-aglaus&amp;quot;
-eyecatch: &amp;quot;hugo.png&amp;quot;
-date: 2015-01-06
----
-
-## About hugo theme [Aglaus]
- :
- :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;If you did not set, default image is displayed.&lt;/p&gt;
-
-&lt;h3 id=&#34;tag:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Tag&lt;/h3&gt;
-
-&lt;p&gt;By setting the &lt;code&gt;tags&lt;/code&gt;, you can tag the article.&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
-title: &amp;quot;about-aglaus&amp;quot;
-date: 2015-01-06
-tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
----
-
-## About hugo theme [Aglaus]
- :
- :
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Tag is displayed at the bottom of the article individual pages, will be used in the indexing of related posts.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34; class=&#34;image&#34; alt=&#34;tags&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;related-post:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Related Post&lt;/h3&gt;
-
-&lt;p&gt;Display posts associated with the reference tags.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34; class=&#34;image&#34; alt=&#34;tags&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You can hide it by the &lt;code&gt;ShowRelatedPost&lt;/code&gt; of &lt;code&gt;config.yaml&lt;/code&gt; to &lt;code&gt;False&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;In that case, also will not be displayed tag.&lt;/p&gt;
-
-&lt;h3 id=&#34;profile:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Profile&lt;/h3&gt;
-
-&lt;p&gt;Profile is displayed at the bottom of the page.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Information of profile getting from &lt;a href=&#34;https://gravatar.com/&#34;&gt;Gravatar&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Please set the &lt;code&gt;GravatarHash&lt;/code&gt; to &lt;code&gt;config.yaml&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Please refer to the &lt;a href=&#34;https://ja.gravatar.com/site/implement/hash/&#34;&gt;Creating the Hash&lt;/a&gt; for hash of the acquisition.&lt;/p&gt;
-
-&lt;p&gt;If you did not set, profie is not displayed.&lt;/p&gt;
-
-&lt;h3 id=&#34;social-links:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Social Links&lt;/h3&gt;
-
-&lt;p&gt;You can place a link on &lt;a href=&#34;https://www.facebook.com/&#34;&gt;Facebook&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/&#34;&gt;Twitter&lt;/a&gt; and &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;You need to set the ID of the &amp;lsquo;Facebook&amp;rsquo; and &amp;lsquo;Twitter&amp;rsquo; and &amp;lsquo;Github&amp;rsquo; to &amp;lsquo;config.yaml&amp;rsquo;.&lt;/p&gt;
-
-&lt;h3 id=&#34;share-buttons:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Share Buttons&lt;/h3&gt;
-
-&lt;p&gt;Share buttons is displayed at the bottom of the page.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_share.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_share.png&#34; class=&#34;image&#34; alt=&#34;share&#34;&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Using the plugin &lt;a href=&#34;http://sharebutton.net/&#34;&gt;SHAREBUTTON&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;contact-me:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Contact Me&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/daisuke.tsuji.735&#34;&gt;https://www.facebook.com/daisuke.tsuji.735&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://twitter.com/dim0627&#34;&gt;https://twitter.com/dim0627&lt;/a&gt;&lt;/p&gt;
-</description>
-        </item>
-      
-    
-      
-        <item>
           <title>about-aglaus-ja</title>
           <link>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus-ja/</link>
           <pubDate>Tue, 06 Jan 2015 00:00:00 UTC</pubDate>
@@ -283,94 +156,134 @@ tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
       
     
       
-    
-      
         <item>
-          <title>Getting Started with Hugo</title>
-          <link>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2014/04/02/getting-started-with-hugo/</link>
-          <pubDate>Wed, 02 Apr 2014 00:00:00 UTC</pubDate>
+          <title>about-aglaus</title>
+          <link>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus/</link>
+          <pubDate>Tue, 06 Jan 2015 00:00:00 UTC</pubDate>
           <author>Daisuke Tsuji</author>
-          <guid>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2014/04/02/getting-started-with-hugo/</guid>
+          <guid>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus/</guid>
           <description>
 
-&lt;h2 id=&#34;step-1-install-hugo:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
+&lt;h2 id=&#34;about-hugo-theme-aglaus:d353d6db6e7381ac46c882e900710e6a&#34;&gt;About hugo theme [Aglaus]&lt;/h2&gt;
 
-&lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
-appropriate version for your os and architecture.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt; is theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
+&lt;p&gt;Please refer to the &lt;code&gt;README.md&lt;/code&gt; of &lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt; for introduction method.&lt;/p&gt;
 
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;comment:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Comment&lt;/h3&gt;
 
-&lt;h2 id=&#34;step-2-build-the-docs:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
+&lt;p&gt;You can use &lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Hugo has its own example site which happens to also be the documentation site
-you are reading right now.&lt;/p&gt;
+&lt;p&gt;Set &lt;code&gt;Disqus&lt;/code&gt; to &lt;code&gt;config.yaml&lt;/code&gt;, and set &lt;code&gt;comments: true&lt;/code&gt; to Markdown.&lt;/p&gt;
 
-&lt;p&gt;Follow the following steps:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_disqus.png&#34; class=&#34;image&#34; alt=&#34;disqus&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;ol&gt;
-&lt;li&gt;Clone the &lt;a href=&#34;http://github.com/spf13/hugo&#34;&gt;hugo repository&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Go into the repo&lt;/li&gt;
-&lt;li&gt;Run hugo in server mode and build the docs&lt;/li&gt;
-&lt;li&gt;Open your browser to &lt;a href=&#34;http://localhost:1313&#34;&gt;http://localhost:1313&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
+&lt;p&gt;If you did not set, the comments section is not displayed.&lt;/p&gt;
 
-&lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;
+&lt;p&gt;If you want to deny a comment only particular article, you can either unset the &lt;code&gt;comments&lt;/code&gt;, please set the &lt;code&gt;false&lt;/code&gt;.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;git clone https://github.com/spf13/hugo
-cd hugo
-/path/to/where/you/installed/hugo server --source=./docs
-&amp;gt; 29 pages created
-&amp;gt; 0 tags index created
-&amp;gt; in 27 ms
-&amp;gt; Web Server is available at http://localhost:1313
-&amp;gt; Press ctrl+c to stop
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;about-aglaus&amp;quot;
+date: 2015-01-06
+comments: false
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Once you&amp;rsquo;ve gotten here, follow along the rest of this page on your local build.&lt;/p&gt;
+&lt;h3 id=&#34;eyecatch-image:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Eyecatch image&lt;/h3&gt;
 
-&lt;h2 id=&#34;step-3-change-the-docs-site:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 3. Change the docs site&lt;/h2&gt;
+&lt;p&gt;Eye-catching image can be set to the article unit.&lt;/p&gt;
 
-&lt;p&gt;Stop the Hugo process by hitting ctrl+c.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_eyecatch.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_eyecatch.png&#34; class=&#34;image&#34; alt=&#34;eyecatch&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Now we are going to run hugo again, but this time with hugo in watch mode.&lt;/p&gt;
+&lt;p&gt;Set the &lt;code&gt;eyecatch&lt;/code&gt; to Markdown file of articles, please deploy the image to &lt;code&gt;static/images/&lt;/code&gt; below.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;/path/to/hugo/from/step/1/hugo server --source=./docs --watch
-&amp;gt; 29 pages created
-&amp;gt; 0 tags index created
-&amp;gt; in 27 ms
-&amp;gt; Web Server is available at http://localhost:1313
-&amp;gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
-&amp;gt; Press ctrl+c to stop
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;about-aglaus&amp;quot;
+eyecatch: &amp;quot;hugo.png&amp;quot;
+date: 2015-01-06
+---
+
+## About hugo theme [Aglaus]
+ :
+ :
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Open your &lt;a href=&#34;http://vim.spf13.com&#34;&gt;favorite editor&lt;/a&gt; and change one of the source
-content pages. How about changing this very file to &lt;em&gt;fix the typo&lt;/em&gt;. How about changing this very file to &lt;em&gt;fix the typo&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;If you did not set, default image is displayed.&lt;/p&gt;
 
-&lt;p&gt;Content files are found in &lt;code&gt;docs/content/&lt;/code&gt;. Unless otherwise specified, files
-are located at the same relative location as the url, in our case
-&lt;code&gt;docs/content/overview/quickstart.md&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;tag:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Tag&lt;/h3&gt;
 
-&lt;p&gt;Change and save this file.. Notice what happened in your terminal.&lt;/p&gt;
+&lt;p&gt;By setting the &lt;code&gt;tags&lt;/code&gt;, you can tag the article.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;&amp;gt; Change detected, rebuilding site
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;---
+title: &amp;quot;about-aglaus&amp;quot;
+date: 2015-01-06
+tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
+---
 
-&amp;gt; 29 pages created
-&amp;gt; 0 tags index created
-&amp;gt; in 26 ms
+## About hugo theme [Aglaus]
+ :
+ :
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Refresh the browser and observe that the typo is now fixed.&lt;/p&gt;
+&lt;p&gt;Tag is displayed at the bottom of the article individual pages, will be used in the indexing of related posts.&lt;/p&gt;
 
-&lt;p&gt;Notice how quick that was. Try to refresh the site before it&amp;rsquo;s finished building.. I double dare you.
-Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34; class=&#34;image&#34; alt=&#34;tags&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;step-4-have-fun:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 4. Have fun&lt;/h2&gt;
+&lt;h3 id=&#34;related-post:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Related Post&lt;/h3&gt;
 
-&lt;p&gt;The best way to learn something is to play with it.&lt;/p&gt;
+&lt;p&gt;Display posts associated with the reference tags.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_tags.png&#34; class=&#34;image&#34; alt=&#34;tags&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You can hide it by the &lt;code&gt;ShowRelatedPost&lt;/code&gt; of &lt;code&gt;config.yaml&lt;/code&gt; to &lt;code&gt;False&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;In that case, also will not be displayed tag.&lt;/p&gt;
+
+&lt;h3 id=&#34;profile:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Profile&lt;/h3&gt;
+
+&lt;p&gt;Profile is displayed at the bottom of the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Information of profile getting from &lt;a href=&#34;https://gravatar.com/&#34;&gt;Gravatar&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please set the &lt;code&gt;GravatarHash&lt;/code&gt; to &lt;code&gt;config.yaml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please refer to the &lt;a href=&#34;https://ja.gravatar.com/site/implement/hash/&#34;&gt;Creating the Hash&lt;/a&gt; for hash of the acquisition.&lt;/p&gt;
+
+&lt;p&gt;If you did not set, profie is not displayed.&lt;/p&gt;
+
+&lt;h3 id=&#34;social-links:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Social Links&lt;/h3&gt;
+
+&lt;p&gt;You can place a link on &lt;a href=&#34;https://www.facebook.com/&#34;&gt;Facebook&lt;/a&gt; and &lt;a href=&#34;https://twitter.com/&#34;&gt;Twitter&lt;/a&gt; and &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;You need to set the ID of the &amp;lsquo;Facebook&amp;rsquo; and &amp;lsquo;Twitter&amp;rsquo; and &amp;lsquo;Github&amp;rsquo; to &amp;lsquo;config.yaml&amp;rsquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;share-buttons:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Share Buttons&lt;/h3&gt;
+
+&lt;p&gt;Share buttons is displayed at the bottom of the page.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_share.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_share.png&#34; class=&#34;image&#34; alt=&#34;share&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Using the plugin &lt;a href=&#34;http://sharebutton.net/&#34;&gt;SHAREBUTTON&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;contact-me:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Contact Me&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.facebook.com/daisuke.tsuji.735&#34;&gt;https://www.facebook.com/daisuke.tsuji.735&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/dim0627&#34;&gt;https://twitter.com/dim0627&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
+      
+    
+      
+    
       
     
       
@@ -717,6 +630,95 @@ so, such as in this example:&lt;/p&gt;
   {{end}}&amp;lt;/ul&amp;gt;
 &amp;lt;/nav&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
+</description>
+        </item>
+      
+    
+      
+        <item>
+          <title>Getting Started with Hugo</title>
+          <link>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2014/04/02/getting-started-with-hugo/</link>
+          <pubDate>Wed, 02 Apr 2014 00:00:00 UTC</pubDate>
+          <author>Daisuke Tsuji</author>
+          <guid>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2014/04/02/getting-started-with-hugo/</guid>
+          <description>
+
+&lt;h2 id=&#34;step-1-install-hugo:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
+
+&lt;p&gt;Goto &lt;a href=&#34;https://github.com/spf13/hugo/releases&#34;&gt;hugo releases&lt;/a&gt; and download the
+appropriate version for your os and architecture.&lt;/p&gt;
+
+&lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
+
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;step-2-build-the-docs:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
+
+&lt;p&gt;Hugo has its own example site which happens to also be the documentation site
+you are reading right now.&lt;/p&gt;
+
+&lt;p&gt;Follow the following steps:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Clone the &lt;a href=&#34;http://github.com/spf13/hugo&#34;&gt;hugo repository&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Go into the repo&lt;/li&gt;
+&lt;li&gt;Run hugo in server mode and build the docs&lt;/li&gt;
+&lt;li&gt;Open your browser to &lt;a href=&#34;http://localhost:1313&#34;&gt;http://localhost:1313&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Corresponding pseudo commands:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;git clone https://github.com/spf13/hugo
+cd hugo
+/path/to/where/you/installed/hugo server --source=./docs
+&amp;gt; 29 pages created
+&amp;gt; 0 tags index created
+&amp;gt; in 27 ms
+&amp;gt; Web Server is available at http://localhost:1313
+&amp;gt; Press ctrl+c to stop
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve gotten here, follow along the rest of this page on your local build.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-3-change-the-docs-site:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 3. Change the docs site&lt;/h2&gt;
+
+&lt;p&gt;Stop the Hugo process by hitting ctrl+c.&lt;/p&gt;
+
+&lt;p&gt;Now we are going to run hugo again, but this time with hugo in watch mode.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;/path/to/hugo/from/step/1/hugo server --source=./docs --watch
+&amp;gt; 29 pages created
+&amp;gt; 0 tags index created
+&amp;gt; in 27 ms
+&amp;gt; Web Server is available at http://localhost:1313
+&amp;gt; Watching for changes in /Users/spf13/Code/hugo/docs/content
+&amp;gt; Press ctrl+c to stop
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Open your &lt;a href=&#34;http://vim.spf13.com&#34;&gt;favorite editor&lt;/a&gt; and change one of the source
+content pages. How about changing this very file to &lt;em&gt;fix the typo&lt;/em&gt;. How about changing this very file to &lt;em&gt;fix the typo&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Content files are found in &lt;code&gt;docs/content/&lt;/code&gt;. Unless otherwise specified, files
+are located at the same relative location as the url, in our case
+&lt;code&gt;docs/content/overview/quickstart.md&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Change and save this file.. Notice what happened in your terminal.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;gt; Change detected, rebuilding site
+
+&amp;gt; 29 pages created
+&amp;gt; 0 tags index created
+&amp;gt; in 26 ms
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Refresh the browser and observe that the typo is now fixed.&lt;/p&gt;
+
+&lt;p&gt;Notice how quick that was. Try to refresh the site before it&amp;rsquo;s finished building.. I double dare you.
+Having nearly instant feedback enables you to have your creativity flow without waiting for long builds.&lt;/p&gt;
+
+&lt;h2 id=&#34;step-4-have-fun:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 4. Have fun&lt;/h2&gt;
+
+&lt;p&gt;The best way to learn something is to play with it.&lt;/p&gt;
 </description>
         </item>
       
