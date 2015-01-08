@@ -33,7 +33,7 @@
 <link rel="shortcut icon" href="http://yet.unresolved.xyz/hugo_theme_aglaus/assets/favicon.ico">
 
 
-<link rel="alternate" type="application/rss+xml" title="RSS" href="http://yet.unresolved.xyz/hugo_theme_aglaus/atom.xml">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://yet.unresolved.xyz/hugo_theme_aglaus/index.xml">
 
 
 
@@ -89,6 +89,34 @@
 <p><a href="https://github.com/dim0627/hugo_theme_aglaus">Aglaus</a> is theme for <a href="http://gohugo.io">Hugo</a>.</p>
 
 <p>Please refer to the <code>README.md</code> of <a href="https://github.com/dim0627/hugo_theme_aglaus">Aglaus</a> for introduction method.</p>
+
+<h3 id="configuration-example:d353d6db6e7381ac46c882e900710e6a">Configuration Example</h3>
+
+<pre><code class="language-yaml">BaseUrl: &quot;http://example.com&quot;
+LanguageCode: &quot;en-us&quot;
+Title: &quot;Aglaus&quot;
+
+Params:
+  Author: &quot;Your name.&quot;
+  Birth: &quot;Sun, Feb 26, 1989&quot;
+  DateForm: &quot;Mon, Jan 2, 2006&quot;
+  GoogleAnalyticsUserID: &quot;Your ID.&quot;
+  GravatarHash: &quot;Your Hash.&quot;
+  Facebook: &quot;Your ID.&quot;
+  Twitter: &quot;Your ID.&quot;
+  Github: &quot;Your ID.&quot;
+  ShowRelatedPost: True
+  Disqus: &quot;Your Disqus.&quot;
+  SyntaxHighlightTheme: &quot;solarized_dark.min.css&quot;
+
+Indexes:
+  tag: &quot;tags&quot;
+
+permalinks:
+  post: /blog/:year/:month/:day/:title/
+
+MetadataFormat: &quot;yaml&quot;
+</code></pre>
 
 <h3 id="comment:d353d6db6e7381ac46c882e900710e6a">Comment</h3>
 
@@ -185,6 +213,14 @@ tags: [&quot;hugo&quot;, &quot;aglaus&quot;]
 
 <p>You need to set the ID of the &lsquo;Facebook&rsquo; and &lsquo;Twitter&rsquo; and &lsquo;Github&rsquo; to &lsquo;config.yaml&rsquo;.</p>
 
+<h3 id="syntaxhighlight:d353d6db6e7381ac46c882e900710e6a">SyntaxHighlight</h3>
+
+<p>You can use <a href="https://highlightjs.org/">highlight.js</a>.</p>
+
+<p>Please set the <code>SyntaxHighlightTheme</code> to <code>config.yaml</code>.</p>
+
+<p><a href="https://github.com/isagalaev/highlight.js/tree/master/src/styles">highlight.js/src/styles</a></p>
+
 <h3 id="share-buttons:d353d6db6e7381ac46c882e900710e6a">Share Buttons</h3>
 
 <p>Share buttons is displayed at the bottom of the page.</p>
@@ -239,6 +275,10 @@ tags: [&quot;hugo&quot;, &quot;aglaus&quot;]
             
             
             
+            
+            
+            
+            
             <li><a href="http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus-ja/">Aglausについて</a></li>
             
             
@@ -253,17 +293,13 @@ tags: [&quot;hugo&quot;, &quot;aglaus&quot;]
             
             
             
+            <li><a href="http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2014/04/02/getting-started-with-hugo/">Getting Started with Hugo</a></li>
+            
             
             
             
             
             <li><a href="http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2014/04/02/hugo-template-primer/">(Hu)go Template Primer</a></li>
-            
-            
-            
-            
-            
-            <li><a href="http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2014/04/02/getting-started-with-hugo/">Getting Started with Hugo</a></li>
             
             
         </ul>
@@ -275,16 +311,11 @@ tags: [&quot;hugo&quot;, &quot;aglaus&quot;]
         <div class="move">
             <div class="prev">
                 
-                <a href="http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus-ja/">
-                    <i class="fa fa-chevron-left"></i>
-                    Aglausについて
-                </a>
-                
             </div>
             <div class="next">
                 
-                <a href="http://yet.unresolved.xyz/hugo_theme_aglaus/about/">
-                    About Hugo
+                <a href="http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2015/01/06/about-aglaus-ja/">
+                    Aglausについて
                     <i class="fa fa-chevron-right"></i>
                 </a>
                 
@@ -352,7 +383,7 @@ var disqus_shortname = 'unresolved';
 
 <footer class="copy">
     <p>&copy; 2015  Daisuke Tsuji </p>
-    <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>, Designed by <a href="http://yet.unresolved.xyz" target="_blank">Daisuke Tsuji</a></p>
+    <p>Powered by <a href="http://gohugo.io" target="_blank">Hugo</a>, Theme <a href="https://github.com/dim0627/hugo_theme_aglaus" target="_blank">Aglaus</a> designed by <a href="http://yet.unresolved.xyz" target="_blank">Daisuke Tsuji</a></p>
 </footer>
 
 <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>

@@ -13,6 +13,35 @@ tags: ["hugo", "golang", "aglaus"]
 
 導入方法については[Aglaus](https://github.com/dim0627/hugo_theme_aglaus)の`README.md`を参照してください。
 
+### 設定例
+
+``` yaml
+BaseUrl: "http://example.com"
+LanguageCode: "en-us"
+Title: "Aglaus"
+
+Params:
+  Author: "Your name."
+  Birth: "Sun, Feb 26, 1989"
+  DateForm: "Mon, Jan 2, 2006"
+  GoogleAnalyticsUserID: "Your ID."
+  GravatarHash: "Your Hash."
+  Facebook: "Your ID."
+  Twitter: "Your ID."
+  Github: "Your ID."
+  ShowRelatedPost: True
+  Disqus: "Your Disqus."
+  SyntaxHighlightTheme: "solarized_dark.min.css"
+
+Indexes:
+  tag: "tags"
+
+permalinks:
+  post: /blog/:year/:month/:day/:title/
+
+MetadataFormat: "yaml"
+```
+
 ### コメント
 
 [Disqus](https://disqus.com/)が導入出来ます。
@@ -110,6 +139,14 @@ tags: ["hugo", "aglaus"]
 `config.yaml`に`Facebook`、`Twitter`、`Github`のIDを設定する必要があります。
 
 設定がない場合、リンクは表示されません。
+
+### シンタックスハイライト
+
+[highlight.js](https://highlightjs.org/)が利用出来ます。
+
+`config.yaml`に`SyntaxHighlightTheme`設定してください。
+
+[highlight.js/src/styles](https://github.com/isagalaev/highlight.js/tree/master/src/styles)
 
 ### シェアボタン
 

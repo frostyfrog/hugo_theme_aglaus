@@ -24,6 +24,34 @@
 
 &lt;p&gt;導入方法については&lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt;の&lt;code&gt;README.md&lt;/code&gt;を参照してください。&lt;/p&gt;
 
+&lt;h3 id=&#34;設定例:0019966881bb613675405e5cc20328ee&#34;&gt;設定例&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;BaseUrl: &amp;quot;http://example.com&amp;quot;
+LanguageCode: &amp;quot;en-us&amp;quot;
+Title: &amp;quot;Aglaus&amp;quot;
+
+Params:
+  Author: &amp;quot;Your name.&amp;quot;
+  Birth: &amp;quot;Sun, Feb 26, 1989&amp;quot;
+  DateForm: &amp;quot;Mon, Jan 2, 2006&amp;quot;
+  GoogleAnalyticsUserID: &amp;quot;Your ID.&amp;quot;
+  GravatarHash: &amp;quot;Your Hash.&amp;quot;
+  Facebook: &amp;quot;Your ID.&amp;quot;
+  Twitter: &amp;quot;Your ID.&amp;quot;
+  Github: &amp;quot;Your ID.&amp;quot;
+  ShowRelatedPost: True
+  Disqus: &amp;quot;Your Disqus.&amp;quot;
+  SyntaxHighlightTheme: &amp;quot;solarized_dark.min.css&amp;quot;
+
+Indexes:
+  tag: &amp;quot;tags&amp;quot;
+
+permalinks:
+  post: /blog/:year/:month/:day/:title/
+
+MetadataFormat: &amp;quot;yaml&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
 &lt;h3 id=&#34;コメント:0019966881bb613675405e5cc20328ee&#34;&gt;コメント&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://disqus.com/&#34;&gt;Disqus&lt;/a&gt;が導入出来ます。&lt;/p&gt;
@@ -119,6 +147,14 @@ tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
 
 &lt;p&gt;設定がない場合、リンクは表示されません。&lt;/p&gt;
 
+&lt;h3 id=&#34;シンタックスハイライト:0019966881bb613675405e5cc20328ee&#34;&gt;シンタックスハイライト&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt;が利用出来ます。&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;config.yaml&lt;/code&gt;に&lt;code&gt;SyntaxHighlightTheme&lt;/code&gt;設定してください。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/isagalaev/highlight.js/tree/master/src/styles&#34;&gt;highlight.js/src/styles&lt;/a&gt;&lt;/p&gt;
+
 &lt;h3 id=&#34;シェアボタン:0019966881bb613675405e5cc20328ee&#34;&gt;シェアボタン&lt;/h3&gt;
 
 &lt;p&gt;ページ最下部にシェアボタンが表示されます。&lt;/p&gt;
@@ -154,6 +190,34 @@ tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
 &lt;p&gt;&lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt; is theme for &lt;a href=&#34;http://gohugo.io&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Please refer to the &lt;code&gt;README.md&lt;/code&gt; of &lt;a href=&#34;https://github.com/dim0627/hugo_theme_aglaus&#34;&gt;Aglaus&lt;/a&gt; for introduction method.&lt;/p&gt;
+
+&lt;h3 id=&#34;configuration-example:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Configuration Example&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-yaml&#34;&gt;BaseUrl: &amp;quot;http://example.com&amp;quot;
+LanguageCode: &amp;quot;en-us&amp;quot;
+Title: &amp;quot;Aglaus&amp;quot;
+
+Params:
+  Author: &amp;quot;Your name.&amp;quot;
+  Birth: &amp;quot;Sun, Feb 26, 1989&amp;quot;
+  DateForm: &amp;quot;Mon, Jan 2, 2006&amp;quot;
+  GoogleAnalyticsUserID: &amp;quot;Your ID.&amp;quot;
+  GravatarHash: &amp;quot;Your Hash.&amp;quot;
+  Facebook: &amp;quot;Your ID.&amp;quot;
+  Twitter: &amp;quot;Your ID.&amp;quot;
+  Github: &amp;quot;Your ID.&amp;quot;
+  ShowRelatedPost: True
+  Disqus: &amp;quot;Your Disqus.&amp;quot;
+  SyntaxHighlightTheme: &amp;quot;solarized_dark.min.css&amp;quot;
+
+Indexes:
+  tag: &amp;quot;tags&amp;quot;
+
+permalinks:
+  post: /blog/:year/:month/:day/:title/
+
+MetadataFormat: &amp;quot;yaml&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;comment:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Comment&lt;/h3&gt;
 
@@ -249,6 +313,14 @@ tags: [&amp;quot;hugo&amp;quot;, &amp;quot;aglaus&amp;quot;]
 &lt;p&gt;&lt;a href=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34;&gt;&lt;img src=&#34;http://yet.unresolved.xyz/hugo_theme_aglaus/hugo_theme_aglaus/images/desc_profile.png&#34; class=&#34;image&#34; alt=&#34;profile&#34;&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;You need to set the ID of the &amp;lsquo;Facebook&amp;rsquo; and &amp;lsquo;Twitter&amp;rsquo; and &amp;lsquo;Github&amp;rsquo; to &amp;lsquo;config.yaml&amp;rsquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;syntaxhighlight:d353d6db6e7381ac46c882e900710e6a&#34;&gt;SyntaxHighlight&lt;/h3&gt;
+
+&lt;p&gt;You can use &lt;a href=&#34;https://highlightjs.org/&#34;&gt;highlight.js&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Please set the &lt;code&gt;SyntaxHighlightTheme&lt;/code&gt; to &lt;code&gt;config.yaml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/isagalaev/highlight.js/tree/master/src/styles&#34;&gt;highlight.js/src/styles&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;share-buttons:d353d6db6e7381ac46c882e900710e6a&#34;&gt;Share Buttons&lt;/h3&gt;
 

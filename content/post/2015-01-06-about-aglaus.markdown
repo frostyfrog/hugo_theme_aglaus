@@ -16,6 +16,35 @@ It is naive English, but please acknowledge.
 
 Please refer to the `README.md` of [Aglaus] (https://github.com/dim0627/hugo_theme_aglaus) for introduction method.
 
+### Configuration Example
+
+``` yaml
+BaseUrl: "http://example.com"
+LanguageCode: "en-us"
+Title: "Aglaus"
+
+Params:
+  Author: "Your name."
+  Birth: "Sun, Feb 26, 1989"
+  DateForm: "Mon, Jan 2, 2006"
+  GoogleAnalyticsUserID: "Your ID."
+  GravatarHash: "Your Hash."
+  Facebook: "Your ID."
+  Twitter: "Your ID."
+  Github: "Your ID."
+  ShowRelatedPost: True
+  Disqus: "Your Disqus."
+  SyntaxHighlightTheme: "solarized_dark.min.css"
+
+Indexes:
+  tag: "tags"
+
+permalinks:
+  post: /blog/:year/:month/:day/:title/
+
+MetadataFormat: "yaml"
+```
+
 ### Comment
 
 You can use [Disqus](https://disqus.com/).
@@ -113,6 +142,14 @@ You can place a link on [Facebook](https://www.facebook.com/) and [Twitter](http
 [<img src="/hugo_theme_aglaus/images/desc_profile.png" class="image" alt="profile">](/hugo_theme_aglaus/images/desc_profile.png)
 
 You need to set the ID of the 'Facebook' and 'Twitter' and 'Github' to 'config.yaml'.
+
+### SyntaxHighlight
+
+You can use [highlight.js](https://highlightjs.org/).
+
+Please set the `SyntaxHighlightTheme` to `config.yaml`.
+
+[highlight.js/src/styles](https://github.com/isagalaev/highlight.js/tree/master/src/styles)
 
 ### Share Buttons
 
