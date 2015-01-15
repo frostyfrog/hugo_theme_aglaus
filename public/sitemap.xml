@@ -18,22 +18,22 @@
   </url>
   
   <url>
-    <loc>http://yet.unresolved.xyz/hugo_theme_aglaus/profile/</loc>
-    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>http://yet.unresolved.xyz/hugo_theme_aglaus/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2014/04/02/getting-started-with-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+    <loc>http://yet.unresolved.xyz/hugo_theme_aglaus/profile/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2014/04/02/hugo-template-primer/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://yet.unresolved.xyz/hugo_theme_aglaus/blog/2014/04/02/getting-started-with-hugo/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
